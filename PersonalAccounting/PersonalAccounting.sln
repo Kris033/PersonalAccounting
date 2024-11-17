@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.Services", "PersonalAccounting.Services\PersonalAccounting.Services.csproj", "{1E7F5A74-0E1C-48E3-B159-3389C781194A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAccounting.Services", "PersonalAccounting.Services\PersonalAccounting.Services.csproj", "{1E7F5A74-0E1C-48E3-B159-3389C781194A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.Services.UnitTests", "PersonalAccounting.Services.UnitTests\PersonalAccounting.Services.UnitTests.csproj", "{8B61DF7E-D0BE-4333-AAFA-FD89FDE5EB64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAccounting.Services.UnitTests", "PersonalAccounting.Services.UnitTests\PersonalAccounting.Services.UnitTests.csproj", "{8B61DF7E-D0BE-4333-AAFA-FD89FDE5EB64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.WebApi", "PersonalAccounting.WebApi\PersonalAccounting.WebApi.csproj", "{F17C6B77-C3C8-4366-B1B9-B25117AAC89E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAccounting.WebApi", "PersonalAccounting.WebApi\PersonalAccounting.WebApi.csproj", "{F17C6B77-C3C8-4366-B1B9-B25117AAC89E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.Data", "PersonalAccounting.Data\PersonalAccounting.Data.csproj", "{B2176EDD-E926-4905-8B08-D59E32262E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAccounting.Data", "PersonalAccounting.Data\PersonalAccounting.Data.csproj", "{B2176EDD-E926-4905-8B08-D59E32262E75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C0042E86-7236-422B-ADC5-F52B39608299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.Data.Core", "Data\PersonalAccounting.Data.Core\PersonalAccounting.Data.Core.csproj", "{5EF59000-6BF3-4F37-AA12-63C5EFAA9487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAccounting.Data.Core", "Data\PersonalAccounting.Data.Core\PersonalAccounting.Data.Core.csproj", "{5EF59000-6BF3-4F37-AA12-63C5EFAA9487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.Data.Enums", "Data\PersonalAccounting.Data.Enums\PersonalAccounting.Data.Enums.csproj", "{A248F4AD-85B6-4302-918A-200B101C51CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalAccounting.Data.Enums", "Data\PersonalAccounting.Data.Enums\PersonalAccounting.Data.Enums.csproj", "{A248F4AD-85B6-4302-918A-200B101C51CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAccounting.Services.Interfaces", "PersonalAccounting.Services.Interfaces\PersonalAccounting.Services.Interfaces.csproj", "{434CEAEA-0F2F-406B-9107-714322690310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{A248F4AD-85B6-4302-918A-200B101C51CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A248F4AD-85B6-4302-918A-200B101C51CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A248F4AD-85B6-4302-918A-200B101C51CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434CEAEA-0F2F-406B-9107-714322690310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434CEAEA-0F2F-406B-9107-714322690310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434CEAEA-0F2F-406B-9107-714322690310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434CEAEA-0F2F-406B-9107-714322690310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
