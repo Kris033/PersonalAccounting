@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using PersonalAccounting.Data;
+
 namespace PersonalAccounting.WebApi;
 
 public class Program
@@ -9,6 +12,10 @@ public class Program
         builder.Services.AddControllers();
         builder.Services.AddSwaggerGen();
 
+        builder.Services.AddDbContext<DataContext>(options => 
+            options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql")),
+            ServiceLifetime.Scoped);
+
         var app = builder.Build();
 
         if (app.Environment.IsDevelopment())
@@ -16,8 +23,6 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-
-        app.UseHttpsRedirection();
         
         app.MapControllers();
 
