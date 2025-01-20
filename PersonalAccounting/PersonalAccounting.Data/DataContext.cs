@@ -16,8 +16,6 @@ public class DataContext(DbContextOptions<DataContext> options) : DbContext(opti
 
     public DbSet<ThinkSample> ThinkSample { get; set; }
 
-    public DbSet<TelegramUserSession> TelegramUserSession { get; set; }
-
     public DbSet<Tag> Tag { get; set; }
 
     public DbSet<TagThinkRelation> TagThinkRelation { get; set; }
@@ -29,7 +27,6 @@ public class DataContext(DbContextOptions<DataContext> options) : DbContext(opti
         modelBuilder.ApplyConfiguration(new UserBalanceOperationConfiguration());
         modelBuilder.ApplyConfiguration(new ThinkSampleConfiguration());
         modelBuilder.ApplyConfiguration(new ThinkAccountPlannedConfiguration());
-        modelBuilder.ApplyConfiguration(new TelegramUserSessionConfiguration());
         modelBuilder.ApplyConfiguration(new TagConfiguration());
         modelBuilder.ApplyConfiguration(new TagThinkRelationConfiguration());
     }

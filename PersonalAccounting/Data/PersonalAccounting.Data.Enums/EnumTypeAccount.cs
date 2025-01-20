@@ -2,7 +2,7 @@
 
 public enum EnumTypeAccount
 {
-    AwaitingConfirmation ,
+    NotConfrimed,
     Activate,
     Blocked
 }

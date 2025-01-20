@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalAccounting.Data\PersonalAccounting.Data.csproj" />
+    <ProjectReference Include="..\PersonalAccounting.Services.Interfaces\PersonalAccounting.Services.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
